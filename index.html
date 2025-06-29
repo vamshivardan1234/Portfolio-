@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo">
-            <span>B</span>ondugula Vamshi
+            <span>Bondugula</span>Vamshi
         </div>
         <nav>
             <ul>
@@ -67,47 +67,94 @@
         </div>
     </section>
     <section class="education" id="education">
-        <div class="container">
-    <aside class="sidebar">
-      <nav>
-        <ul>
-          <li><a href="#education" class="nav-link active">Education</a></li>
-          <li><a href="#experience" class="nav-link">Experience</a></li>
-          <li><a href="#hackathons" class="nav-link">Hackathons</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#research" class="nav-link">Research Papers</a></li>
-        </ul>
-      </nav>
-    </aside>
-
-    <main class="content">
-      <section id="education"><h2>Education</h2>
-        <div class="edu-entry">
-      <img src="spec-logo.png" alt="SPEC Logo" class="edu-logo">
-      <div>
-        <p class="edu-year">2022–2026</p>
-        <h3>St. Peter's Engineering College</h3>
-        <p>Bachelors of Technology (B.Tech) in Artificial Intelligence and Data Science</p>
-        <p class="edu-cgpa">CGPA: 8.7</p>
-      </div>
-    </div>
-
-    <div class="edu-entry">
-      <img src="sri-chaitanya-logo.png" alt="Sri Chaitanya Logo" class="edu-logo">
-      <div>
-        <p class="edu-year">2020–2022</p>
-        <h3>Sri Chaitanya Junior College</h3>
-        <p>Telangana State Board Of Intermediate Education (TSBIE)</p>
-        <p class="edu-cgpa">Percentage: 85%</p>
-      </div>
-    </div>
-    </section>
-      <section id="experience"><h2>Experience</h2><p>...</p></section>
-      <section id="hackathons"><h2>Hackathons</h2><p>...</p></section>
-      <section id="skills"><h2>Skills</h2><p>...</p></section>
-      <section id="research"><h2>Research Papers</h2><p>...</p></section>
-    </main>
+        <div class="page-layout">
+  <!-- LEFT SIDEBAR -->
+  <div class="sidebar">
+    <ul>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hackathons">Hackathons</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#research">Research Papers</a></li>
+    </ul>
   </div>
+
+  <!-- RIGHT CONTENT -->
+  <div class="main-content">
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <img src="spec-logo.png" alt="SPEC Logo" />
+        <div>
+          <span>2022–2026</span>
+          <h3>St. Peter’s Engineering College</h3>
+          <p>B.Tech in Artificial Intelligence and Data Science</p>
+          <strong>CGPA: 8.7</strong>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <img src="chaitanya-logo.png" alt="Sri Chaitanya Logo" />
+        <div>
+          <span>2020–2022</span>
+          <h3>Sri Chaitanya Junior College</h3>
+          <p>Telangana State Board of Intermediate Education (TSBIE)</p>
+          <strong>Percentage: 85%</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-section">
+
+  <div class="project">
+    <div class="project-date">Jan 2025 – Apr 2025</div>
+    <div class="project-title">SMS Spam Detection</div>
+    <div class="project-subtitle">Tech Stack: Python, Scikit-learn, Streamlit</div>
+    <div class="project-desc">Machine Learning model to classify SMS messages as Spam or Ham.</div>
+    <ul>
+      <li>Preprocessed 5,500+ messages using TF-IDF and feature engineering.</li>
+      <li>Trained models (Naive Bayes, Logistic Regression) reaching 97% accuracy.</li>
+      <li>Deployed with Streamlit for real-time predictions via web interface.</li>
+      <li><a href="https://github.com/yourusername/sms-spam-detector" target="_blank">GitHub Repository</a></li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="project-date">Feb 2025 – May 2025</div>
+    <div class="project-title">Inventory Management System</div>
+    <div class="project-subtitle">Tech Stack: Java Swing, MySQL, JDBC</div>
+    <div class="project-desc">Desktop GUI application to manage stock, sales, and reporting for small businesses.</div>
+    <ul>
+      <li>Developed modules for item management, billing, and reports with authentication.</li>
+      <li>Used JDBC for seamless database interaction with MySQL.</li>
+      <li>Implemented clean tab-based Swing UI with data validation and input sanitization.</li>
+      <li><a href="https://github.com/yourusername/inventory-management-system" target="_blank">GitHub Repository</a></li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <div class="project-date">Mar 2024 – Apr 2024</div>
+    <div class="project-title">SilentHelp X</div>
+    <div class="project-subtitle">Tech Stack: Android, OpenCV, MediaPipe</div>
+    <div class="project-desc">Emergency SOS app that detects hand gestures even without internet.</div>
+    <ul>
+      <li>Implemented recognition of silent help hand gesture using MediaPipe & OpenCV.</li>
+      <li>Sent SMS/emergency alerts to saved contacts without needing internet access.</li>
+      <li>Designed minimal UI to ensure quick access in panic situations.</li>
+      <li><a href="https://github.com/yourusername/silenthelp-x" target="_blank">GitHub Repository</a></li>
+    </ul>
+  </div>
+
+
+</div>
+    </section>
+
+    <!-- Add Hackathons, Skills, Research sections here -->
+  </div>
+</div>
+
     </section>
     <script src="script.js"></script>
 </body>

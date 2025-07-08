@@ -557,4 +557,8 @@ section h2 {
 .slider:hover .slide-track {
   animation-play-state: paused;
 }
-
+.bottom-section {
+  background-color: #fce6ee;
+  padding: 20px 0;
+  text-align: center;
+}

@@ -419,3 +419,131 @@ section h2 {
   font-size: 14px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
+ .certifications-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .certifications-section h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .slider {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .slide-track {
+      display: flex;
+      animation: scroll 40s linear infinite;
+      width: calc(250px * 14); /* 14 logos * 250px each */
+    }
+
+    .slide {
+      width: 250px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  margin: auto;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+    .slide img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+      background: white;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    
+.Awards{
+  text-align: center;
+  padding: 40px 20px;
+}
+  .Awards h2{
+    font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 30px;
+  }
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.contact-section h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.contact-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.contact-card{
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  transition: transform 0.3s ease;
+}
+.contact-card:hover{
+  transform: translateY(-5px);
+}
+.icon-circle{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8e2156;
+  color: white;
+  font-size: 24px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.contact-card h4{
+  font-size: 18px;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+.contact-card p{
+  font-size: 14px;
+  margin: 0;
+  color: #8e2156;
+  word-break: break-word;
+  
+}
+.contact-card a{
+  color: #8e2156;
+  text-decoration: none;
+}
+.contact-card a:hover{
+  text-decoration: underline;
+}
+.slider:hover .slide-track {
+  animation-play-state: paused;
+}
